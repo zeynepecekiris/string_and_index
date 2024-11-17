@@ -1,0 +1,878 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "c815653c-3534-485f-b375-d5d1be65c0a9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hello world'"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"hello world\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "bfe57d75-104d-4a8e-96b0-e2aea299818d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello world\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('hello world')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "6a24c40a-0578-4604-95ae-fe16cdac1203",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name = 'ece'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "caae42d7-4a30-4aa9-a21b-330a92cf48e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "5da435fc-c2dc-4a1b-82ca-9f681b4df93b",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'ece' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[9], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m ece\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'ece' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "ece"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "ab767822-df39-45d3-84eb-01ddbe8d6560",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ece'"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"ece\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "35d9bf90-0f93-4f83-8729-47386fbf31c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "\"ece's codes\""
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"ece's codes\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "7134aa95-5949-49d1-9f9b-36efe1d8907f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name=\"zeynep ece kiris\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "14405066-29ae-43c6-8a06-1234a26b5fd2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Zeynep ece kiris'"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name.capitalize() "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "2bb4fdd5-d1f8-4bd6-bda7-4da9eb82935d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<function str.casefold()>"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name.casefold"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "750ec096-f955-4805-ab53-d12336a544b9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<function str.center(width, fillchar=' ', /)>"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name.center"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "1b47dba5-d7c5-41d7-91c5-915f8cabaa26",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'zeynep ece kiris'"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name.casefold()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "dddeda3d-15b3-40a4-aeda-bc38ad3375fc",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "count() takes at least 1 argument (0 given)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[25], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m name\u001b[38;5;241m.\u001b[39mcount()\n",
+      "\u001b[1;31mTypeError\u001b[0m: count() takes at least 1 argument (0 given)"
+     ]
+    }
+   ],
+   "source": [
+    "name.count()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "1a117a15-21f4-42c1-bff8-d6452948c795",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "find() takes at least 1 argument (0 given)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[27], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m name\u001b[38;5;241m.\u001b[39mfind()\n",
+      "\u001b[1;31mTypeError\u001b[0m: find() takes at least 1 argument (0 given)"
+     ]
+    }
+   ],
+   "source": [
+    "name.find()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "9e879d62-1e31-4d49-9698-bdf8498de67b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x =10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "888b9d90-b7dd-4817-b87c-469e7be1635c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'zeynep ece kiris'"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "0f7b6f80-e00b-4d52-825f-bd631e86c261",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "endswith() takes at least 1 argument (0 given)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[33], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m name\u001b[38;5;241m.\u001b[39mendswith()\n",
+      "\u001b[1;31mTypeError\u001b[0m: endswith() takes at least 1 argument (0 given)"
+     ]
+    }
+   ],
+   "source": [
+    "name.endswith()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "8c18563d-00e6-46b2-aaae-347807961b8c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Help on built-in function count:\n",
+      "\n",
+      "count(...) method of builtins.str instance\n",
+      "    S.count(sub[, start[, end]]) -> int\n",
+      "\n",
+      "    Return the number of non-overlapping occurrences of substring sub in\n",
+      "    string S[start:end].  Optional arguments start and end are\n",
+      "    interpreted as in slice notation.\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "help(name.count)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "9f758fec-a1b1-4c3f-a2c4-cfe41e8be54b",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "count() takes at least 1 argument (0 given)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[37], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m name\u001b[38;5;241m.\u001b[39mcount()\n",
+      "\u001b[1;31mTypeError\u001b[0m: count() takes at least 1 argument (0 given)"
+     ]
+    }
+   ],
+   "source": [
+    "name.count()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "6af04722-8490-4853-a421-bb221c6bd55f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ZEYNEP ECE KIRIS'"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name.upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "3d661723-279a-4951-926e-e61597c6ff47",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name.count(\"b\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "30560107-0a8c-492a-b579-95078fca8c35",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "45194fc7-3f7e-4912-bb9e-67b518eabea3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y=5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "8e51321c-315a-41a9-886c-72adf1f16525",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "z=x+y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "2d404652-d77b-4e61-ad9d-ed3792e1998f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "15"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "z"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "eaf2503a-15e8-4d13-8eda-aa3b74421a67",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "nameUpper=name.upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "75828863-636d-4961-ae78-20faaa27c895",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ZEYNEP ECE KIRIS'"
+      ]
+     },
+     "execution_count": 53,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "nameUpper"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "35803239-0a57-4d3a-8240-070a142ed767",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Help on built-in function upper:\n",
+      "\n",
+      "upper() method of builtins.str instance\n",
+      "    Return a copy of the string converted to uppercase.\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "help(name.upper)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "3967074b-cb65-4e59-a85a-41257a8fd109",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<function len(obj, /)>"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len #length"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "0f488032-bf47-44d4-bfcf-18049d8d7f1d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "16"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(name) #lenght"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "decbdd36-88c9-4d65-86f7-9e675d07d968",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "zeynep /nece\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"zeynep /nece\") #ters /"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "18d0b0eb-5bae-442e-8f50-7c5175e3aece",
+   "metadata": {},
+   "source": [
+    "index"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "1b51bb4a-10d7-4ac4-9bdc-27310c2b957b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "myString=\"hello python\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "705c45b7-e936-48b1-af61-9448cd71b743",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'o'"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "myString[4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "5746888e-b694-430f-9628-3dfc44b8e353",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' '"
+      ]
+     },
+     "execution_count": 74,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "myString[5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "147df2ea-1dd0-4de9-999d-f41201d4fc5a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'p'"
+      ]
+     },
+     "execution_count": 76,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "myString[6]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "87cef2ed-19fa-4f2d-adf6-301f897ce1e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndexError",
+     "evalue": "string index out of range",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mIndexError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[78], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m myString[\u001b[38;5;241m12\u001b[39m]\n",
+      "\u001b[1;31mIndexError\u001b[0m: string index out of range"
+     ]
+    }
+   ],
+   "source": [
+    "myString[12]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "id": "1e9da7af-4953-4ada-bfb0-96defc3b6f17",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "12"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(myString)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "id": "b6b18c88-4c9c-4c4a-b50d-cbc72467aebc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "11"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(myString)-1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "496d9231-4327-4e0a-b299-172fdcce8911",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "019cef00-e032-4e9f-8753-f7281b0083e1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "myName = \"james hetfield\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "9c5e13bd-0096-4147-90ed-7f59beda9ea1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "13"
+      ]
+     },
+     "execution_count": 86,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(myName)-1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "d36f4108-3e47-496a-bae6-b880ea36a991",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'d'"
+      ]
+     },
+     "execution_count": 88,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "myName[len(myName)-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "8bf49820-32c3-47d5-90ae-59140c5befd6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'d'"
+      ]
+     },
+     "execution_count": 92,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "myName[-1] #-1 son harfe esit oluyo index alirken"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "21bd1843-8499-4e3c-a2ab-ec61fa737e66",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'l'"
+      ]
+     },
+     "execution_count": 94,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "myName[-2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 96,
+   "id": "09ff8bf7-ddb9-4278-81dc-f94316a7e588",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'e'"
+      ]
+     },
+     "execution_count": 96,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "myName[-3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "17d60dc3-6c65-4a61-bebe-181eb58db43e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
